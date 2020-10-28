@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: violet;
+}
+
+.google-translate {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+#google_translate_element {
+    display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+.conteiner {
+	position: relative;
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+.conteiner .card {
+	position: relative;
+	max-width: 200px;
+	height: 80px;
+	background-color: #fff;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgb(0,0,0,0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.conteiner .card:hover {
+	height: 700px;
+}
+
+.conteiner .card .imgBX {
+	position: relative;
+	width: 200px;
+	height: 300px;
+	top: -40px;
+	left: 20px;
+	z-index: 1;
+}
+
+.conteiner .card .imgBX img {
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+.conteiner .card .content {
+	position: relative;
+	margin-top: -140px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.conteiner .card:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: -40px;
+	transition: 0.3s;
+}
