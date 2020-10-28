@@ -14,7 +14,7 @@ body {
     display: inline-block;
     vertical-align: top;
     padding-top: 15px;
-    padding-left: 700px;
+    padding-left: 100%;
 }
 
 .goog-logo-link {
