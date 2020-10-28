@@ -34,7 +34,7 @@ body {
 
 .conteiner {
 	position: relative;
-	width: 1100px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
