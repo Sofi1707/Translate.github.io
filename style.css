@@ -89,4 +89,5 @@ body {
 	opacity: 1;
 	margin-top: -40px;
 	transition: 0.3s;
+	height: 100%;
 }
